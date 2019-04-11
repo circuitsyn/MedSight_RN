@@ -21,7 +21,7 @@ export default className HomeScreen extends React.Component {
     return (
 
         <div classNameName="homeWrapper">
-            {/* // <!-- Main Logo Section --> */}
+            {/* Main Logo Section */}
             <div className="container mt-0 mb-5">
                 <div className="row">
                     <img className="mainImgArea mb-2" src="/assets/images/MedSight Banner - Tighter Crop.png" alt="MedSight" />
@@ -29,7 +29,7 @@ export default className HomeScreen extends React.Component {
             </div>
     
     
-            {/* <!-- Health Tip Section --> */}
+            {/* Health Tip Section */}
             <div className="container healthFactArea mt-2 mb-5">
                 <div className="row mt-2 mb-2 d-flex justify-content-center">
                     <h3><strong>Quote of the Day</strong></h3>
@@ -42,10 +42,10 @@ export default className HomeScreen extends React.Component {
                 </div>    
             </div>
     
-            {/* <!-- Main Survey Question Area --> */}
+            {/* Main Survey Question Area */}
             <div className="container mainSurveyArea mt-2 mb-2">
     
-                {/* <!-- Intro instructions --> */}
+                {/* Intro instructions */}
                 <div className="row">
                     <h2 className="d-flex align-items-center mt-4 titleFont">
                         Make sure to fill your card out to completion so we can get you the best results over time!
@@ -53,9 +53,9 @@ export default className HomeScreen extends React.Component {
                 </div>
                 <hr />
             
-                {/* <!-- Questions -->
+                {/* Questions
                 <!--Pain Location Section Start-->
-                <!-- Muscle Pain --> */}
+                Muscle Pain */}
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
@@ -95,7 +95,7 @@ export default className HomeScreen extends React.Component {
                             </select>
                         </div>
         
-                        {/* <!-- Skeletal Pain--> */}
+                        {/* Skeletal Pain--> */}
                         <div className="col-md-4">
                             <select id="skeletalQ" className="custom-select" style="width: 220px">
                                 <option value="none">Skeletal Pain Locations</option>
@@ -119,7 +119,7 @@ export default className HomeScreen extends React.Component {
                             </select>
                         </div>
     
-                        {/* <!-- Epidermis Pain--> */}
+                        {/* Epidermis Pain--> */}
                         <div className="col-md-4">            
                             <select id="epidermisQ" className="custom-select" style="width: 220px">
                                 <option value="none">Epidermis Pain Locations</option>
@@ -145,7 +145,7 @@ export default className HomeScreen extends React.Component {
                     </div>
                 </div>
                 
-                {/* <!-- Allergy Trigger Section --> */}
+                {/* Allergy Trigger Section */}
                 <div className="container">
                     <div className="row">         
                         <h4>Allergy Triggers:</h4>  
@@ -221,8 +221,8 @@ export default className HomeScreen extends React.Component {
                     </section>
                 </div>
         
-                {/* <!-- Discomfort Sliders --> */}
-                {/* <!-- Stress Level Slider --> */}
+                {/* Discomfort Sliders */}
+                {/* Stress Level Slider */}
                 <hr />
                 <div className="container">
                     <div className="row mb-4 mt-3">
@@ -232,7 +232,7 @@ export default className HomeScreen extends React.Component {
                             <input type="range" min="0" max="10" value="0" className="slider" id="stressRange" data-slider-id="stressRangeId" />
                         </div>
                     </div>
-                    {/* <!-- Intensity Level Slider --> */}
+                    {/* Intensity Level Slider */}
                     <div className="row mb-3 mt-2">
                         <h4>Symptom Intensity Level Slider</h4>
                         <p>Please touch or click and hold the heart on the scale and drag it toward green for less intensity and right for more intensity of the symptom that you are experiencing below:</p>
@@ -244,7 +244,7 @@ export default className HomeScreen extends React.Component {
         
                 <hr />
 
-                {/* <!-- Table for API and auto data --> */}
+                {/* Table for API and auto data */}
                 <div className="autoTable">
                     <table className="table table-bordered">
                         <thead>
@@ -278,7 +278,7 @@ export default className HomeScreen extends React.Component {
                     </table>
                 </div>
         
-                {/* <!-- Notes Input Area --> */}
+                {/* Notes Input Area */}
                 <div className="container">
                     <div className="row mt-4 mb-4">
                         <div className="input-group">
@@ -290,14 +290,14 @@ export default className HomeScreen extends React.Component {
                     </div>
                 </div>
         
-                {/* <!-- Submit Button --> */}
+                {/* Submit Button */}
                 <div className="row container">
                     <input id="submit" className="btn btn-warning pt-3 pb-3 pl-5 pr-5 font-weight-bold " type="submit" value="Submit New Card" />
                 </div>
                 <hr />
             </div>
 
-            {/* <!-- Form Validation Modal Start --> */}
+            {/* Form Validation Modal Start */}
             <div className="modal fade" id="validator" tabindex="-1" role="dialog" >
                 <div className="modal-dialog modal-dialog-centered modal-sm" role="document">
                     <div className="modal-content">
