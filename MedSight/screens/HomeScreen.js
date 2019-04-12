@@ -53,9 +53,7 @@ export default className HomeScreen extends React.Component {
                 </div>
                 <hr />
             
-                {/* Questions
-                <!--Pain Location Section Start-->
-                Muscle Pain */}
+                {/* Questions Pain Location Section Start */}
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
@@ -71,76 +69,77 @@ export default className HomeScreen extends React.Component {
                     <div className="row mt-2 mb-2 d-flex justify-content-center">
                         <div className="row mt-2 mb-4">
 
-                        {/* Muscular Pain: */}
-                        <div className="col-md-4">
-                            <select id="muscularQ" className="custom-select" style="width: 220px">
-                                <option value="none">Muscular Pain Locations</option>
-                                <option value="Ankle">Muscular Pain: Ankle</option>
-                                <option value="Back">Muscular Pain: Back</option>
-                                <option value="Bicep">Muscular Pain: Bicep</option>
-                                <option value="Calf">Muscular Pain: Calf</option>
-                                <option value="Chest">Muscular Pain: Chest</option>
-                                <option value="Elbow">Muscular Pain: Elbow </option>
-                                <option value="Face">Muscular Pain: Face</option>
-                                <option value="Feet">Muscular Pain: Feet</option>
-                                <option value="Fingers">Muscular Pain: Fingers</option>
-                                <option value="Hands">Muscular Pain: Hands</option>
-                                <option value="Head">Muscular Pain: Head</option>
-                                <option value="Knuckles">Muscular Pain: Knuckles</option>
-                                <option value="Neck">Muscular Pain: Neck</option>
-                                <option value="Nose">Muscular Pain: Nose</option>
-                                <option value="Shin">Muscular Pain: Shin</option>
-                                <option value="Thigh">Muscular Pain: Thigh</option>
-                                <option value="Tricep">Muscular Pain: Tricep</option>
-                            </select>
-                        </div>
+                            {/* Muscular Pain: */}
+                            <div className="col-md-4">
+                                <select id="muscularQ" className="custom-select" style="width: 220px">
+                                    <option value="none">Muscular Pain Locations</option>
+                                    <option value="Ankle">Muscular Pain: Ankle</option>
+                                    <option value="Back">Muscular Pain: Back</option>
+                                    <option value="Bicep">Muscular Pain: Bicep</option>
+                                    <option value="Calf">Muscular Pain: Calf</option>
+                                    <option value="Chest">Muscular Pain: Chest</option>
+                                    <option value="Elbow">Muscular Pain: Elbow </option>
+                                    <option value="Face">Muscular Pain: Face</option>
+                                    <option value="Feet">Muscular Pain: Feet</option>
+                                    <option value="Fingers">Muscular Pain: Fingers</option>
+                                    <option value="Hands">Muscular Pain: Hands</option>
+                                    <option value="Head">Muscular Pain: Head</option>
+                                    <option value="Knuckles">Muscular Pain: Knuckles</option>
+                                    <option value="Neck">Muscular Pain: Neck</option>
+                                    <option value="Nose">Muscular Pain: Nose</option>
+                                    <option value="Shin">Muscular Pain: Shin</option>
+                                    <option value="Thigh">Muscular Pain: Thigh</option>
+                                    <option value="Tricep">Muscular Pain: Tricep</option>
+                                </select>
+                            </div>
+            
+                            {/* Skeletal Pain--> */}
+                            <div className="col-md-4">
+                                <select id="skeletalQ" className="custom-select" style="width: 220px">
+                                    <option value="none">Skeletal Pain Locations</option>
+                                    <option value="Ankle">Skeletal Pain: Ankle</option>
+                                    <option value="Back">Skeletal Pain: Back</option>
+                                    <option value="Bicep">Skeletal Pain: Bicep</option>
+                                    <option value="Calf">Skeletal Pain: Calf</option>
+                                    <option value="Chest">Skeletal Pain: Chest</option>
+                                    <option value="Elbow">Skeletal Pain: Elbow </option>
+                                    <option value="Face">Skeletal Pain: Face</option>
+                                    <option value="Feet">Skeletal Pain: Feet</option>
+                                    <option value="Fingers">Skeletal Pain: Fingers</option>
+                                    <option value="Hands">Skeletal Pain: Hands</option>
+                                    <option value="Head">Skeletal Pain: Head</option>
+                                    <option value="Knuckles">Skeletal Pain: Knuckles</option>
+                                    <option value="Neck">Skeletal Pain: Neck</option>
+                                    <option value="Nose">Skeletal Pain: Nose</option>
+                                    <option value="Shin">Skeletal Pain: Shin</option>
+                                    <option value="Thigh">Skeletal Pain: Thigh</option>
+                                    <option value="Tricep">Skeletal Pain: Tricep</option>
+                                </select>
+                            </div>
         
-                        {/* Skeletal Pain--> */}
-                        <div className="col-md-4">
-                            <select id="skeletalQ" className="custom-select" style="width: 220px">
-                                <option value="none">Skeletal Pain Locations</option>
-                                <option value="Ankle">Skeletal Pain: Ankle</option>
-                                <option value="Back">Skeletal Pain: Back</option>
-                                <option value="Bicep">Skeletal Pain: Bicep</option>
-                                <option value="Calf">Skeletal Pain: Calf</option>
-                                <option value="Chest">Skeletal Pain: Chest</option>
-                                <option value="Elbow">Skeletal Pain: Elbow </option>
-                                <option value="Face">Skeletal Pain: Face</option>
-                                <option value="Feet">Skeletal Pain: Feet</option>
-                                <option value="Fingers">Skeletal Pain: Fingers</option>
-                                <option value="Hands">Skeletal Pain: Hands</option>
-                                <option value="Head">Skeletal Pain: Head</option>
-                                <option value="Knuckles">Skeletal Pain: Knuckles</option>
-                                <option value="Neck">Skeletal Pain: Neck</option>
-                                <option value="Nose">Skeletal Pain: Nose</option>
-                                <option value="Shin">Skeletal Pain: Shin</option>
-                                <option value="Thigh">Skeletal Pain: Thigh</option>
-                                <option value="Tricep">Skeletal Pain: Tricep</option>
-                            </select>
-                        </div>
-    
-                        {/* Epidermis Pain--> */}
-                        <div className="col-md-4">            
-                            <select id="epidermisQ" className="custom-select" style="width: 220px">
-                                <option value="none">Epidermis Pain Locations</option>
-                                <option value="Ankle">Epidermis Pain: Ankle</option>
-                                <option value="Back">Epidermis Pain: Back</option>
-                                <option value="Bicep">Epidermis Pain: Bicep</option>
-                                <option value="Calf">Epidermis Pain: Calf</option>
-                                <option value="Chest">Epidermis Pain: Chest</option>
-                                <option value="Elbow">Epidermis Pain: Elbow </option>
-                                <option value="Face">Epidermis Pain: Face</option>
-                                <option value="Feet">Epidermis Pain: Feet</option>
-                                <option value="Fingers">Epidermis Pain: Fingers</option>
-                                <option value="Hands">Epidermis Pain: Hands</option>
-                                <option value="Head">Epidermis Pain: Head</option>
-                                <option value="Knuckles">Epidermis Pain: Knuckles</option>
-                                <option value="Neck">Epidermis Pain: Neck</option>
-                                <option value="Nose">Epidermis Pain: Nose</option>
-                                <option value="Shin">Epidermis Pain: Shin</option>
-                                <option value="Thigh">Epidermis Pain: Thigh</option>
-                                <option value="Tricep">Epidermis Pain: Tricep</option>
-                            </select>
+                            {/* Epidermis Pain--> */}
+                            <div className="col-md-4">            
+                                <select id="epidermisQ" className="custom-select" style="width: 220px">
+                                    <option value="none">Epidermis Pain Locations</option>
+                                    <option value="Ankle">Epidermis Pain: Ankle</option>
+                                    <option value="Back">Epidermis Pain: Back</option>
+                                    <option value="Bicep">Epidermis Pain: Bicep</option>
+                                    <option value="Calf">Epidermis Pain: Calf</option>
+                                    <option value="Chest">Epidermis Pain: Chest</option>
+                                    <option value="Elbow">Epidermis Pain: Elbow </option>
+                                    <option value="Face">Epidermis Pain: Face</option>
+                                    <option value="Feet">Epidermis Pain: Feet</option>
+                                    <option value="Fingers">Epidermis Pain: Fingers</option>
+                                    <option value="Hands">Epidermis Pain: Hands</option>
+                                    <option value="Head">Epidermis Pain: Head</option>
+                                    <option value="Knuckles">Epidermis Pain: Knuckles</option>
+                                    <option value="Neck">Epidermis Pain: Neck</option>
+                                    <option value="Nose">Epidermis Pain: Nose</option>
+                                    <option value="Shin">Epidermis Pain: Shin</option>
+                                    <option value="Thigh">Epidermis Pain: Thigh</option>
+                                    <option value="Tricep">Epidermis Pain: Tricep</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -303,7 +302,6 @@ export default className HomeScreen extends React.Component {
                     <div className="modal-content">
                         <div className="modal-header">
                             <h2 className="modal-title"><strong>Selection Error</strong></h2>
-                            {/* </button> */}
                             <h4 className="modal-title" id="validatorLabel"></h4>
                         </div>
                         <div className="modal-body modal-dialog-centered">
